@@ -1,0 +1,68 @@
+input[type="text"],
+input[type="email"] {
+    width: 200px;
+    height: 35px;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 5px;
+    outline: none;
+    display: block;
+    margin-bottom: 15px;
+
+    /* 
+        CSS TRANSITION 
+        4 propriedade de configuração
+        * propriedades obrigatórias, a demais assumem valor default.
+
+        transition-property* -> (width) Nome da propriedade sobre a qual será aplicada
+        a transição.
+
+        transition-duration* -> duração do efeito em segundos, padrão é 0.
+
+        transition-timing-function -> como transição progride no 
+        tempo (o padrão ease).
+
+        transition-delay: define a partir de quanto 
+        tempo(em segundo) a transição começará
+
+    */
+    /* -webkit-transition-property: width;
+    -moz-transition-property: width;
+    transition-property: width;
+
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    transition-duration: 1s;
+
+    -webkit-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    transition-timing-function: linear; 
+    
+    Abreviação
+    transition: |property| |duration| |timing-function| |delay|
+    */
+
+    -webkit-transition: width 1s linear, border 2s ease-in, background-color 2s;
+    -moz-transition: width 1s linear, border 2s ease-in, background-color 2s;
+    transition: width 1s linear, border 2s ease-in, background-color 2s;
+}
+
+input[type="text"]:focus {
+     width: 300px;
+     border: 2px solid gold;
+     background-color: beige;
+}
+
+button {
+    padding: 10px 30px;
+    background-color: skyblue;
+    color: blue;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+button:hover {
+    background-color: blue;
+    color: skyblue;
+    font-size: 24px;
+}
