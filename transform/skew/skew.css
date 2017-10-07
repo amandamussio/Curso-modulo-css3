@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #262626;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding: 7% 8% 5%;
+    transform: skew(0,10deg);
+    /* colocar skew */
+}
+
+.container h2 {
+    font-size: 3em;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.container p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    width: 80%;
+    text-align: justify;
+}
+
+.skewBox {
+    padding: 5% 0 5%;
+    background-color: #edff2f;
+    opacity: 0.9;
+    transform: skew(0,-10deg);
+    /* colocar skew e translate */
+}
+
+.skewBoxTwo {
+    text-align: right;
+    color: #fff;
+    padding: 0 10% 5%;
+    position: relative;
+    top: 100px;
+}
+.skewBoxTwo h2 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 3em;
+}
+.skewBoxTwo p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    width: 100%;
+    text-align: justify;
+}

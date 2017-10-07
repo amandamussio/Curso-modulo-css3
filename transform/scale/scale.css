@@ -1,0 +1,35 @@
+.gallery {
+    list-style: none;
+}
+.gallery li {
+    display: inline-block;
+    margin: 20px;
+}
+.gallery li img {
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    transform: scale(0.5);
+    transition: all .5s ease-in; 
+}
+.gallery li img:hover {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.other {
+    width: 400px;
+    overflow: hidden;
+    z-index: 10;
+    position: relative;
+}
+
+.zoom {
+    transform: scale(1);
+    transition: all .3s ease-out;
+}
+.zoom:hover {
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    transform: scale(2);
+}
