@@ -1,0 +1,19 @@
+.container {
+    height: 70vh;
+}
+.start {
+    align-self: flex-start;
+}
+.end {
+    align-self: flex-end;
+}
+.center {
+    align-self: center;
+}
+.baseline {
+    align-self: baseline;
+}
+.stretch {
+    align-self: stretch;
+    background-color: red;
+}

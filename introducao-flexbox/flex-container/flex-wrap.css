@@ -1,0 +1,8 @@
+.flex {
+    /* flex-wrap: nowrap; 
+    valor padrao nao permite a quebra de linha */
+    flex-wrap: wrap;
+    /* Quebra a linha assim que um dos dlex itens nao puder mais ser compactado */
+    /* flex-wrap: wrap-reverse; */
+    /* Quebra a linha assim que um dos flex itend nao puder ser mais compactado. A quebra e na direcao contraria */
+}

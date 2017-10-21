@@ -1,0 +1,9 @@
+.flex {
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    justify-content: space-between;
+    /* Cria um espacamento igual entre os elementos. Mnatendo o primeiro grudado no inicio e o ultimo no final. */
+    /* justify-content: space-around; */
+    /* Cria um espacamento entre os elementos. Os espacamentos do meio sao duas vezes maiores que o do inicio e final  */
+}

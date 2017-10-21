@@ -1,0 +1,25 @@
+.coluna {
+    margin: 5px;
+    font-size: 1.5em;
+}
+.coluna-1 {
+    background-color: skyblue;
+}
+.coluna-2 {
+    background-color: gold;
+}
+.coluna-3 {
+    background-color: pink;
+}
+.grow0 {
+ flex-grow: 0;
+}
+.grow1 {
+    flex-grow: 1;
+}
+.grow2 {
+
+}
+.grow9 {
+    flex-grow: 9;
+}
